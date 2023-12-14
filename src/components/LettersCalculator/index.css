@@ -1,0 +1,57 @@
+/* Write your code here. */
+.main-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0px;
+}
+h1 {
+  color: white;
+  font-family: 'roboto';
+  width: 160px;
+  font-size: 25px;
+}
+label {
+  color: white;
+}
+input {
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  height: 25px;
+  outline: none;
+  color: white;
+}
+.para {
+  background-color: white;
+  height: 30px;
+  width: 110px;
+  border-radius: 5px;
+  border: none;
+  color: #219a6f;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px;
+}
+.image {
+  height: 250px;
+  width: 320px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
